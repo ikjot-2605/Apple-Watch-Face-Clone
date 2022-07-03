@@ -1,0 +1,47 @@
+<svg>
+  <arc id="outerRing" x="50%-135" y="50%-135" width="270" height="270" fill="grey"
+    arc-width="10" start-angle="0" sweep-angle="360" fill-opacity="0.3"  />
+  
+  <arc id="redRing" x="50%-115" y="50%-115" width="230" height="230" fill="red"
+    arc-width="15" start-angle="0" sweep-angle="360" fill-opacity="0.3"  />
+  <arc id="stepsRedRing" x="50%-115" y="50%-115" width="230" height="230" fill="red"
+    arc-width="15" start-angle="0" fill-opacity="0.9"  />
+  
+  <arc id="greenRing" x="50%-65" y="50%-65" width="130" height="130" fill="lightgreen"
+    arc-width="15" start-angle="0" sweep-angle="360" fill-opacity="0.3"  />
+  <arc id="floorGreenRing" x="50%-65" y="50%-65" width="130" height="130" fill="lightgreen"
+    arc-width="15" start-angle="0" fill-opacity="0.9"  />
+  
+  <arc id="blueRing" x="50%-90" y="50%-90" width="180" height="180" fill="aqua"
+    arc-width="15" start-angle="0" sweep-angle="360" fill-opacity="0.3"  />
+  <arc id="activityBlueRing" x="50%-90" y="50%-90" width="180" height="180" fill="aqua"
+    arc-width="15" start-angle="0" fill-opacity="0.9"  />
+  <line  x1="150" y1="15" x2="150" y2="24" fill="grey" stroke-width="2"></line>
+  <line  x1="150" y1="284" x2="150" y2="275" fill="grey" stroke-width="2"></line>
+  <line  y1="150" x1="15" y2="150" x2="24" fill="grey" stroke-width="2"></line>
+  <line  y1="150" x1="284" y2="150" x2="275" fill="grey" stroke-width="2"></line>
+  <line  x1="213" y1="258" x2="218" y2="267" fill="grey" stroke-width="2"></line>
+  <line  x1="87" y1="258" x2="82" y2="267" fill="grey" stroke-width="2"></line>
+  <line  x1="213" y1="42" x2="218" y2="33" fill="grey" stroke-width="2"></line>
+  <line  x1="87" y1="42" x2="82" y2="33" fill="grey" stroke-width="2"></line>
+  <line  x1="258" y1="213" x2="267" y2="218" fill="grey" stroke-width="2"></line>
+  <line  x1="42" y1="87" x2="33" y2="82" fill="grey" stroke-width="2"></line>
+  <line  x1="258" y1="87" x2="267" y2="82" fill="grey" stroke-width="2"></line>
+  <line  x1="42" y1="213" x2="33" y2="218" fill="grey" stroke-width="2"></line>
+ 
+  
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-110" width="8" height="110" fill="#e0e0e0" rx="8" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-6" y="-75" width="12" height="75" fill="#ffffff" rx="8" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-120" width="1" height="120" fill="#ffbf00" />
+  </g>
+  <g id="secs_back" pointer-events="visible" transform="translate(50%,50%)">
+    <rect y="-30" width="1" height="30" fill="#ffbf00" />
+  </g>
+  <circle cx="50%" cy="50%" r="6" fill="#ffbf00" />
+  <circle cx="50%" cy="50%" r="2" fill="black" />
+</svg>
